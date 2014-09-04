@@ -6,12 +6,7 @@ var fs = require('fs');
 var config = require('./config');
 
 var tokens = {};
-if (!config) {
-    config = {};
-}
-if(!config.domains) {
-    config.domains = process.env.AUTH_DOMAINS.split(',');
-}
+
 config.domains.forEach(function(domain) {
     config[domain] = {
         auth: process.env[domain + '_AUTH'],
