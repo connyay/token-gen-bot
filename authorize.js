@@ -55,8 +55,8 @@ config.domains.forEach(function(domain) {
 
 Q.all(deferredList).then(function() {
     if(tokens && !config.posturl) {
-        console.log('have tokens, but not sure what to do with them...');
-        process.exit(1);
+        console.log('have tokens, but not sure what to do with them... Exiting for now.');
+        process.exit(0);
     }
     var options = {
         url: config.posturl,
