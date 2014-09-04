@@ -1,0 +1,23 @@
+{
+  "name": "token-gen-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authorize.js",
+  "scripts": {
+    "start": "node authorize.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connyay/token-gen-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connyay/token-gen-bot/issues"
+  },
+  "homepage": "https://github.com/connyay/token-gen-bot",
+  "dependencies": {
+    "q": "^1.0.1",
+    "request": "^2.40.0"
+  }
+}
