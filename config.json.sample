@@ -1,5 +1,5 @@
 {
     "host": "openshift.redhat.com",
     "posturl": "https://manager-yourdomain.rhcloud.com/do/something",
-    "domains": ["DOMAIN1," "DOMAIN2"]
+    "domains": ["DOMAIN1", "DOMAIN2"]
 }
