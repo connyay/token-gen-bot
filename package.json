@@ -4,6 +4,7 @@
   "description": "",
   "main": "authorize.js",
   "scripts": {
+    "prestart": "[ -f config.json ] || cp config.json.sample config.json",
     "start": "node authorize.js"
   },
   "repository": {
